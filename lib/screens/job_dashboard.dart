@@ -13,7 +13,7 @@ class JobDashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF0D1117),
-      body: SafeArea(
+      body: SafeArea( 
         child: Column(
           children: [
             _buildHeader(),
